@@ -10,7 +10,7 @@ services:
       - db 
   
   front:
-    build: ./cliente
+    build: ./client/
     ports:
       - "3000:3000"
     links:
